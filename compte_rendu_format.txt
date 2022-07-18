@@ -1,0 +1,65 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% E.Pinault-Bigeard - s2i@pinault-bigeard.com
+% http://s2i.pinault-bigeard.com
+% CC BY-NC-SA 2.0 FR - http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Package UPSTI_Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\RequirePackage{UPSTI_Document}
+\newcommand{\UPSTIidDocument}{1535382847}
+\usepackage{longtable}
+\usepackage{stmaryrd}
+\usetikzlibrary{snakes}
+
+%---------------------------------%
+% Paramètres du package
+%---------------------------------%
+
+% Version du document (pour la compilation)
+% 1: Document prof
+% 2: Document élève
+% 3: Document à publier
+\newcommand{\UPSTIidVersionDocument}{2}
+
+% Choix du type de document
+% 8: Fiche méthode
+\newcommand{\UPSTIidTypeDocument}{8}
+
+% Classe
+% 7: MPSI
+\newcommand{\UPSTIidClasse}{7}
+
+% Titre
+\newcommand{\UPSTItitreEnTete}{Compte rendu d'examen}      
+
+% Chapitre
+\newcommand{\UPSTInumeroChapitre}{}
+
+% Source
+\newcommand{\UPSTIsource}{K. FOUQUET}
+
+% Versioning
+\newcommand{\UPSTInumeroVersion}{1.0}
+
+% Numéro
+\newcommand{\UPSTInumero}{}
+
+%----------------------------------------------- 
+\UPSTIcompileVars		% "Compile" les variables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Début du document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document}
+
+
+% Création de l'en-tête
+\UPSTIbuildPage 
+
+\cleardoublepage
+

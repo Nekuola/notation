@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% E.Pinault-Bigeard - s2i@pinault-bigeard.com
+% http://s2i.pinault-bigeard.com
+% CC BY-NC-SA 2.0 FR - http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Package UPSTI_Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\RequirePackage{UPSTI_Document}
+\newcommand{\UPSTIidDocument}{1535382847}
+\usepackage{longtable}
+\usepackage{stmaryrd}
+\usetikzlibrary{snakes}
+
+%---------------------------------%
+% Paramètres du package
+%---------------------------------%
+
+% Version du document (pour la compilation)
+% 1: Document prof
+% 2: Document élève
+% 3: Document à publier
+\newcommand{\UPSTIidVersionDocument}{2}
+
+% Choix du type de document
+% 8: Fiche méthode
+\newcommand{\UPSTIidTypeDocument}{8}
+
+% Classe
+% 7: MPSI
+\newcommand{\UPSTIidClasse}{7}
+
+% Titre
+\newcommand{\UPSTItitreEnTete}{Compte rendu d'examen}      
+
+% Chapitre
+\newcommand{\UPSTInumeroChapitre}{}
+
+% Source
+\newcommand{\UPSTIsource}{K. FOUQUET}
+
+% Versioning
+\newcommand{\UPSTInumeroVersion}{1.0}
+
+% Numéro
+\newcommand{\UPSTInumero}{}
+
+%----------------------------------------------- 
+\UPSTIcompileVars		% "Compile" les variables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Début du document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document}
+
+
+% Création de l'en-tête
+\UPSTIbuildPage 
+
+\cleardoublepage
+
+\section*{Résultat de l'examen de SI} 
+ 
+Note obtenue au dernier examen : 15.3/20 
+ 
+Classement : 2e sur 4 élèves.
+
+Tu trouveras ci-dessous un bilan détaillé de l'examen, avec ta réussite pour chaque compétence abordée. 
+ 
+Une brève description de ces compétences est donnée juste après, afin que tu saches quoi revoir.
+
+\begin{figure}[htbp] 
+\centering 
+\includegraphics[width=.9\textwidth]{img/bilan_Roméo Antier.pdf} 
+\end{figure} 
+
+\UPSTIcompetences 
+\UPSTItableauCompetences{ 
+\UPSTIligneTableauCompetence{A1-01} 
+\UPSTIligneTableauCompetence{A1-03} 
+\UPSTIligneTableauCompetence{A1-02} 
+\UPSTIligneTableauCompetence{A1-04} 
+\UPSTIligneTableauCompetence{A1-05} 
+\UPSTIligneTableauCompetence{A1-07} 
+\UPSTIligneTableauCompetence{A2-02} 
+\UPSTIligneTableauCompetence{A2-01} 
+} 
+\clearpage 
+\section*{Résultat de l'examen de SI} 
+ 
+Note obtenue au dernier examen : 20.0/20 
+ 
+Classement : 1e sur 4 élèves.
+
+Tu trouveras ci-dessous un bilan détaillé de l'examen, avec ta réussite pour chaque compétence abordée. 
+ 
+Une brève description de ces compétences est donnée juste après, afin que tu saches quoi revoir.
+
+\begin{figure}[htbp] 
+\centering 
+\includegraphics[width=.9\textwidth]{img/bilan_Kevin Fouquet.pdf} 
+\end{figure} 
+
+\UPSTIcompetences 
+\UPSTItableauCompetences{ 
+\UPSTIligneTableauCompetence{A1-01} 
+\UPSTIligneTableauCompetence{A1-03} 
+\UPSTIligneTableauCompetence{A1-02} 
+\UPSTIligneTableauCompetence{A1-04} 
+\UPSTIligneTableauCompetence{A1-05} 
+\UPSTIligneTableauCompetence{A1-07} 
+\UPSTIligneTableauCompetence{A2-02} 
+\UPSTIligneTableauCompetence{A2-01} 
+} 
+\clearpage 
+\section*{Résultat de l'examen de SI} 
+ 
+Note obtenue au dernier examen : 1.6/20 
+ 
+Classement : 4e sur 4 élèves.
+
+Tu trouveras ci-dessous un bilan détaillé de l'examen, avec ta réussite pour chaque compétence abordée. 
+ 
+Une brève description de ces compétences est donnée juste après, afin que tu saches quoi revoir.
+
+\begin{figure}[htbp] 
+\centering 
+\includegraphics[width=.9\textwidth]{img/bilan_David Etievant.pdf} 
+\end{figure} 
+
+\UPSTIcompetences 
+\UPSTItableauCompetences{ 
+\UPSTIligneTableauCompetence{A1-01} 
+\UPSTIligneTableauCompetence{A1-03} 
+\UPSTIligneTableauCompetence{A1-02} 
+\UPSTIligneTableauCompetence{A1-04} 
+\UPSTIligneTableauCompetence{A1-05} 
+\UPSTIligneTableauCompetence{A1-07} 
+\UPSTIligneTableauCompetence{A2-02} 
+\UPSTIligneTableauCompetence{A2-01} 
+} 
+\clearpage 
+\section*{Résultat de l'examen de SI} 
+ 
+Note obtenue au dernier examen : 15.3/20 
+ 
+Classement : 2e sur 4 élèves.
+
+Tu trouveras ci-dessous un bilan détaillé de l'examen, avec ta réussite pour chaque compétence abordée. 
+ 
+Une brève description de ces compétences est donnée juste après, afin que tu saches quoi revoir.
+
+\begin{figure}[htbp] 
+\centering 
+\includegraphics[width=.9\textwidth]{img/bilan_Willy Haik.pdf} 
+\end{figure} 
+
+\UPSTIcompetences 
+\UPSTItableauCompetences{ 
+\UPSTIligneTableauCompetence{A1-01} 
+\UPSTIligneTableauCompetence{A1-03} 
+\UPSTIligneTableauCompetence{A1-02} 
+\UPSTIligneTableauCompetence{A1-04} 
+\UPSTIligneTableauCompetence{A1-05} 
+\UPSTIligneTableauCompetence{A1-07} 
+\UPSTIligneTableauCompetence{A2-02} 
+\UPSTIligneTableauCompetence{A2-01} 
+} 
+\clearpage 
+\end{document}
